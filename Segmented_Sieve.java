@@ -36,7 +36,7 @@ public class Segmented_Sieve
             }
         }
         
-        System.out.print("Prime numbers from" +n_low+" to "+n_high+": ");
+        System.out.print("Prime numbers from " +n_low+" to "+n_high+": ");
         for (int i=Math.max(n_low,2);i<=n_high;i++) 
         {
             if (isPrimeRange[i]==true) 
